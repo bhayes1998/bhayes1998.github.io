@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <title>Bryan Hayes</title>
         <link rel="icon" href="imgs/fav.ico">
-        <link rel="stylesheet" href="/styles.css">
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
@@ -14,59 +14,156 @@
     		<h1 class="name">Bryan Hayes</h1>
     		<div class="blockInfo">
     			<p class="info">My name is Bryan Hayes and I am a Computer Science student at Miami University. I got my start in the world of technology and coding late in high school when my hardware class teacher introduced me to it. I started off with learning the basics of Java and have since branched out to several other languages such as C++, SQL, and HTML. I have had the time of my life learning all about the world of software engineering. Currently, I am taking part in a remote internship at Tata Consultancy Services.</p>
-    			<img src="/imgs/profile1.jpg" alt="Bryan" class="profile">
+    			<img src="imgs/profile1.jpg" alt="Bryan" class="profile">
     		</div>
     		<hr style="margin-top: 50px; margin-bottom: 50px;">
     		<div class="projects">
     			<h2>Projects</h2>
     			<p>Below you can find some projects I have done in my time at Miami.  Some of these are assignments I did for school, and some of them are personal projects.  You can also find a link to the Github project page for each one.</p>
     		</div>
-    		<div>
-    			<h3>Z+- Interpreter [2020]</h3>
-    			<p>This was a fun Java project that I did for my comparative programming languages class.  It involves a made-up basic programming language called Z+-, which can do very simple math as well as single and nested for loops.  The program reads in a text file containg the Z+- code and parses through it to decide what to do.</p>
-    			<button class="githubButton" onclick="window.open('https://github.com/bhayes1998/Notable_Projects/tree/master/Z%2B-_Interpreter');">Z+- Interpeter</button>
-    		</div>
-    		<hr style="width: 50%; margin-bottom: 50px; margin-top: 50px;">
+			<!--
+				begin row 1
+			-->
+			<div class="row"> 
+				<div class="columnLeft">
+					<h3>Loan Shark [2020-2021]</h3>
+					<div class="projectInfo">This was my senior capstone project at Miami that I worked on with a group of three other people. It is an Android mobile app designed to keep track of items that you have borrowed from someone or have lent out to someone, with integrated Google account support. It was written in Dart using the Flutter framework, with Google Firebase as our database solution. [Note: this project is owned by Miami University, so I am not permitted to share the source code. I have linked to screenshots of every page in the app instead.]</div>
+					<div class="row">
+						<div class="subColumn">
+							<img src="imgs/loanshark.png" alt="Loan Shark" class="projectImg">
+						</div>
+						<div class="subColumn">
+							<button class="githubButton" onclick="window.open('https://drive.google.com/file/d/1WSrp5XTfUkjMGIRY00AvjPtwt9lj5a_Y/view?usp=sharing');">Loan Shark</button>
+						</div>
+					</div>
+				</div>
 
-    		<div>
-    			<h3>Basic Command Shell [2019]</h3>
-    			<p>A C++ project created for my systems class that creates a Linux command terminal and can perform basic Linux commands.  It involves forking and manipulating child processes using the execvp() function.  The given commands can be done serial or in parallel.</p>
-    			<img src="imgs/tux.png" alt="Tux" class="profile">
-    			</div>
-    			<button class="githubButton" onclick="window.open('https://github.com/bhayes1998/Notable_Projects/tree/master/Basic_Command_Shell');">Basic Command Shell</button>
-    			
-    		
-    		<hr style="width: 50%; margin-bottom: 50px; margin-top: 50px;">
+				<hr class="showMobile">
 
-    		<div>
-    			<h3>Toilet Talk [2019]</h3>
-    			<p>The final project for my databases class.  This is a web app built from the ASP.NET framework that acts as a review site for all of the bathrooms on Miami Universities campus.  Users could leave short reviews and bathrooms as well as give them a rating.  Each bathroom page contained some info about the bathroom such as number of sinks/stalls, as well as the allowed gender.  Reviews were stored in a MySQL database.</p>
-    			<button class="githubButton" onclick="window.open('https://github.com/bhayes1998/DatabasesProject/tree/master/DatabasesFinalProject');">Toilet Talk</button>
-    		</div>
-    		<hr style="width: 50%; margin-bottom: 50px; margin-top: 50px;">
+				<div class="line">
+					<div class="vl"></div>
+				</div>
+				<div class="columnRight">
+					<h3>Toilet Talk [2019]</h3>
+					<div class="projectInfo">The final project for my databases class.  This is a web app built from the ASP.NET framework that acts as a review site for all of the bathrooms on Miami Universities campus.  Users could leave short reviews and bathrooms as well as give them a rating.  Each bathroom page contained some info about the bathroom such as number of sinks/stalls, as well as the allowed gender.  Reviews were stored in a MySQL database.</div>
+					<div class="row">
+						<div class="subColumn">
+							<img src="imgs/toilet.png" alt="Toilet Talk" class="projectImg">
+						</div>
+						<div class="subColumn">
+							<button class="githubButton" onclick="window.open('https://github.com/bhayes1998/DatabasesProject');">Toilet Talk</button>
+						</div>
+					</div>				
+				</div>				
+			</div>
+    		<!--
+				end row 1
+			-->
+			<hr class="bar">
+			<!--
+				begin row 2
+			-->
+			<div class="row"> 
+				<div class="columnLeft">
+					<h3>Running App [2020]</h3>
+					<div class="projectInfo">My final project for my mobile apps class.  It is a basic running app that can store the users run time, distance, and date.  After a run is added, it can be updated or deleted, with each run being stored in a SQLite database.  Users can also see their yearly, monthly, and weekly totals visually represented in a bar graph, as well as calculate their age grade for a set of distances.  </div>
+					<div class="row">
+						<div class="subColumn">
+							<img src="imgs/running.png" alt="Running App" class="projectImg">
+						</div>
+						<div class="subColumn">
+							<button class="githubButton" onclick="window.open('https://github.com/bhayes1998/MobileAppsStuff/tree/master/HW5/RunningApp');">Running App</button>
+						</div>
+					</div>				
+				</div>
 
-    		<div>
-    			<h3>Game Design Projects [2020]</h3>
-    			<p>A collection of the three major projects I did for my game design class.  I couldn't decide which one I liked the best, so I've included all of them.  The first project was a carnival-style shooter in the form of naval warfare, the second project is a katamari game, and the thrid is a basic capture the flag shooter.  All of these projects were created in Unity.</p>
-    			<button class="githubButton" onclick="window.open('https://github.com/bhayes1998/DatabasesProject/tree/master/DatabasesFinalProject');">PUT THIS STUFF ON GITHUB REEEEE</button>
-    		</div>
-    		<hr style="width: 50%; margin-bottom: 50px; margin-top: 50px;">
+				<hr class="showMobile">
+				
+				<div class="line">
+					<div class="vl"></div>
+				</div>
 
-    		<div>
-    			<h3>Running App [2020]</h3>
-    			<p>My final project for my mobile apps class.  It is a basic running app that can store the users run time, distance, and date.  After a run is added, it can be updated or deleted, with each run being stored in a SQLite database.  Users can also see their yearly, monthly, and weekly totals visually represented in a bar graph, as well as calculate their age grade for a set of distances.  </p>
-    			<button class="githubButton" onclick="window.open('https://github.com/bhayes1998/DatabasesProject/tree/master/DatabasesFinalProject');">PUT THIS STUFF ON GITHUB REEEEE</button>
-    		</div>
-    		<hr style="width: 50%; margin-bottom: 50px; margin-top: 50px;">
+				<div class="columnRight">
+					<h3>Unity Projects [2020]</h3>
+					<div class="projectInfo">A collection of the projects I did for my game design class.  I couldn't decide which one I liked the best, so I've included all of them.  The labs are mostly one-off learning exercises, but the three projects show off more of what I was capable of in Unity.  The first project was a carnival-style shooter in the form of naval warfare, the second project is a katamari game, and the thrid is a basic capture the flag shooter.  All of these projects were created in Unity using C# for scripting.</div>
+					<div class="row">
+						<div class="subColumn">
+							<img src="imgs/unity.png" alt="Unity" class="projectImg">
+						</div>
+						<div class="subColumn">
+							<button class="githubButton" onclick="window.open('https://github.com/bhayes1998/GameDesignStuff');">Unity Projects</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--
+				end row 2
+			-->
+			<hr class="bar">
+			<!--
+				begin row 3
+			-->
+			<div class="row">
+				<div class="columnLeft">
+					<h3>Basic Command Shell [2019]</h3>
+					<div class="projectInfo">A C++ project created for my systems class that creates a Linux command terminal and can perform basic Linux commands.  It involves forking and manipulating child processes using the execvp() function.  The given commands can be done serial or in parallel.</div>
+					<div class="row">
+						<div class="subColumn">
+							<img src="imgs/tux.png" alt="Tux" class="projectImg">
+						</div>
+						<div class="subColumn">
+							<button class="githubButton" onclick="window.open('https://github.com/bhayes1998/Notable_Projects/tree/master/Basic_Command_Shell');">Basic Command Shell</button>
+						</div>
+					</div>
+				</div>
 
-    		<div>
-    			<h3>[Insert final name of website here] [2020]</h3>
-    			<p>This very website!  I created this page almost solely for the purpose of teaching myself HTML and CSS.  I have previously not had much experience in web development, so I thought this would be the most useful way to introduce myslef to it.</p>
-    			<button class="githubButton" onclick="window.open('https://github.com/bhayes1998/DatabasesProject/tree/master/DatabasesFinalProject');">This Website</button>
-    		</div>
-    		<hr style="width: 50%; margin-bottom: 50px; margin-top: 50px;">
+				<hr class="showMobile">
+				
+				<div class="line">
+					<div class="vl"></div>
+				</div>
 
-   		</div>
+				<div class="columnRight">
+					<h3>Z+- Interpreter [2020]</h3>
+					<div class="projectInfo">This was a fun Java project that I did for my comparative programming languages class.  It involves a made-up basic programming language called Z+-, which can do very simple math as well as single and nested for loops.  The program reads in a text file containg the Z+- code and parses through it to decide what to do.</div>
+					<div class="row">
+						<div class="subColumn">
+							<img src="imgs/shell.png" alt="Interpeter" class="projectImg">
+						</div>
+						<div class="subColumn">
+							<button class="githubButton" onclick="window.open('https://github.com/bhayes1998/Notable_Projects/tree/master/Z%2B-_Interpreter');">Z+_ Interpreter</button>
+						</div>
+					</div>				
+				</div>
+				
+			</div>
+			 <!--
+				end row 3
+			-->
+			<hr class="bar">
+
+			<div class="row">
+				<div class="columnLeft">
+					<h3>bhayes1998.github.io [2020]</h3>
+					<div class="projectInfo">This very website!  I created this page almost solely for the purpose of teaching myself HTML and CSS.  I have previously not had much experience in web development, so I thought this would be the most useful way to introduce myslef to it.</div>
+					<div class="row">
+						<div class="subColumn">
+							<img src="imgs/html.png" alt="This website" class="projectImg">
+						</div>
+						<div class="subColumn">
+							<button class="githubButton" onclick="window.open('https://github.com/bhayes1998/Notable_Projects/tree/master/Basic_Command_Shell');">This Website</button>
+						</div>
+					</div>
+				</div>
+
+				<hr class="showMobile">
+
+				<div class="line"  >
+					<div class="vl"></div>
+				</div>
+			</div>
+
+   	</div>
     	<div class="footer">
     	</div>
 	</body>
