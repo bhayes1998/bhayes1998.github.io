@@ -7,17 +7,24 @@ body, html {
 	transition-duration: 1.5s;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1000px) {
 
 	.main {
-		padding:100px;
-		padding-top:50px;
+		padding-top: 2.5%;
+		padding-left:5%;
+		padding-right:5%;
+		padding-bottom: 1%;
 		margin-left: 15%;
 		margin-right: 15%;
 		background: rgba(0, 0, 0, 0.7);
 		color: #ffffff;
 		font-family: 'Orbitron', sans-serif;
-		
+	}
+
+	.footer {
+		width: 100%;
+		margin-top: 5%;
+		text-align: center;
 	}
 
 	.name {
@@ -37,6 +44,7 @@ body, html {
 		height: 15%;
 		width: 15%;
 		margin-left: 10%;
+		margin-bottom: 2.5%;
 	}
 
 	.projectImg {
@@ -81,7 +89,7 @@ body, html {
 	}
 
 	.info {
-		font-size: 1.1em;
+		font-size: 1.3em;
 		padding-left: 10px;
 		padding-bottom: 10px;
 		padding-top: 75px;
@@ -127,14 +135,33 @@ body, html {
 		margin-top: 30%;
 	}	
 
+	.resumeButton {
+		background-color: #fc035e; 
+		width: 50%;
+		border: none;
+		border-radius: 20px;
+		color: white;
+		padding: 20px;
+		text-align: center;
+		display: inline-block;
+		font-size: 16px;
+		font-family: 'Orbitron', sans-serif;
+		transition-duration: 0.2s;
+	}	
+
 	.githubButton:hover {
 		background-color: #00aaff;
 		box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
  }
 
+	.resumeButton:hover {
+		background-color: #00aaff;
+		box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+	}
+
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 999px) {
 	/* For mobile phones: */
 	[class="columnLeft"] {
 	  width: 100%;
@@ -208,6 +235,27 @@ body, html {
 		margin-top: 10%;
 	}
 
+	.resumeButton {
+		background-color: #fc035e; 
+		width: 100%;
+		border: none;
+		border-radius: 20px;
+		color: white;
+		padding: 20px;
+		text-align: center;
+		display: inline-block;
+		font-size: 16px;
+		font-family: 'Orbitron', sans-serif;
+		transition-duration: 0.2s;
+		margin-top: 10%;
+	}	
+	
+	.footer {
+		width: 100%;
+		margin-top: 5%;
+		text-align: center;
+	}
+
 	.githubButton {
 		background-color: #fc035e; 
 		border: none;
@@ -220,7 +268,7 @@ body, html {
 		font-family: 'Orbitron', sans-serif;
 		transition-duration: 0.2s;
 		width: 100%;
-		margin-top: 30%;
+		margin-top: 10%;
 	}
  }
 
